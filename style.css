@@ -43,6 +43,9 @@ h1 {
   font-size: x-large;
   border-radius: 10px;
 }
+.second-section{
+  text-align: center;
+}
 
 .container {
   display: flex;
