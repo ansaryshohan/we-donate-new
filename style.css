@@ -1,7 +1,38 @@
 body {
   font-family: 'Lato', sans-serif;
 font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+}
+.homepage{
+  background-image: url(./images/donation13.jpg);
+  background-repeat: no-repeat;
+  height: 70%;
+  width: 100%;
+  background-size: cover;
+  background-position: absolute;
+  color: antiquewhite;
+  margin-top: 0px;
+}
+.first-section{
+  text-align: center;
+  padding-left: 30px;
 }
 h1{
   font-size: 70px;
+}
+
+.short-text{
+  padding-bottom: 30px;
+  margin-top: 0px;
+}
+.home-button{
+  text-decoration: none;
+  background-color: tomato;
+  height: 20px;
+  width: 30px;
+  padding: 20px;
+  font-weight:700;
+  font-size: x-large;
+  border-radius: 10px;
 }
