@@ -1,10 +1,11 @@
 body {
   font-family: 'Lato', sans-serif;
-font-family: 'Roboto', sans-serif;
-margin: 0;
-padding: 0;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
-.homepage{
+
+.homepage {
   background-image: url(./images/donation13.jpg);
   background-repeat: no-repeat;
   height: 70%;
@@ -14,59 +15,71 @@ padding: 0;
   color: rgb(230, 233, 235);
   margin-top: 0px;
 }
-.first-section{
+
+.first-section {
   text-align: center;
   padding-left: 30px;
   padding-top: 40px;
 }
-h1{
+
+h1 {
   font-size: 70px;
 }
 
-.short-text{
+.short-text {
   padding-bottom: 30px;
   margin-top: 0px;
   font-size: 30px;
 }
-.home-button{
+
+.home-button {
   text-decoration: none;
   background-color: tomato;
   height: 20px;
   width: 30px;
   padding: 20px;
-  font-weight:700;
+  font-weight: 700;
   font-size: x-large;
   border-radius: 10px;
 }
-.container{
+
+.container {
   display: flex;
-  
+  al
 }
-.box{
+
+.box {
   height: 100px;
-  width: 1000px;
+  width: 300px;
   background-color: lightgray;
-  margin: 4px;
-  text-align: center;
+  margin-left: 50px;
+  padding-left: 50px;
+  padding: top 50px;
+  justify-content: center;
+  align-items: center;
   font-size: 40px;
 }
-.box:hover{
-  border:5px;
-  border-color: brown; 
+
+.box:hover {
+  border: 5px;
+  border-color: brown;
 }
-.other-amount{
+
+.other-amount {
   text-align: center;
   border-top: none;
 
 }
 
-input{
+input {
   width: 200px;
-  border: 0px solid;
+  border: 0;
+  border-bottom: 1px solid black;
   height: 30px;
   width: 260px;
-  font-size:30px ;
+  font-size: 30px;
 }
+
 /*#button2{
   text-align: center;
   display: flex;
@@ -74,3 +87,44 @@ input{
   align-items: center;
   
 }*/
+.third-section {
+  align-items: center;
+  text-align: center;
+}
+
+/*fa-solid{
+  height: 20px;
+  width: 20px;
+}*/
+.donation-container {
+  display: flex;
+  justify-items: center;
+
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.plan {
+  margin-left: 40px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  padding-top: 40px;
+  padding-right: 5px;
+
+  border: 1px solid gray;
+  height: 300px;
+  width: 400px;
+  box-shadow: 5px gray;
+  align-items: flex-start;
+}
+.color-purple{
+  background-color: lightgoldenrodyellow;
+}
+.color-blue{
+  background-color: powderblue;
+}
+.color-pink{
+  background-color: lightpink;
+}
