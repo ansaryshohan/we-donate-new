@@ -9,8 +9,8 @@ padding: 0;
   background-repeat: no-repeat;
   height: 70%;
   width: 100%;
-  background-size: cover;
-  background-position: absolute;
+  background-size: 100% 70%;
+  position: absolute;
   color: antiquewhite;
   margin-top: 0px;
 }
