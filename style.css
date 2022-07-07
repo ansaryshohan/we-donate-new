@@ -127,3 +127,20 @@ h2 {
 .color-pink{
   background-color: lightpink;
 }
+.update-section{
+  align-items: center;
+  text-align: center;
+}
+.email{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 4px;
+
+}
+.form-box{
+  padding: 10px;
+ border-bottom: 5px;
+ background: lightblue;
+}
