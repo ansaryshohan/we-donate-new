@@ -9,14 +9,15 @@ padding: 0;
   background-repeat: no-repeat;
   height: 70%;
   width: 100%;
-  background-size: 100% 70%;
-  position: absolute;
-  color: antiquewhite;
+  background-size: 100% 90%;
+  /* position: absolute;*/
+  color: rgb(230, 233, 235);
   margin-top: 0px;
 }
 .first-section{
   text-align: center;
   padding-left: 30px;
+  padding-top: 40px;
 }
 h1{
   font-size: 70px;
@@ -25,6 +26,7 @@ h1{
 .short-text{
   padding-bottom: 30px;
   margin-top: 0px;
+  font-size: 30px;
 }
 .home-button{
   text-decoration: none;
@@ -36,3 +38,39 @@ h1{
   font-size: x-large;
   border-radius: 10px;
 }
+.container{
+  display: flex;
+  
+}
+.box{
+  height: 100px;
+  width: 1000px;
+  background-color: lightgray;
+  margin: 4px;
+  text-align: center;
+  font-size: 40px;
+}
+.box:hover{
+  border:5px;
+  border-color: brown; 
+}
+.other-amount{
+  text-align: center;
+  border-top: none;
+
+}
+
+input{
+  width: 200px;
+  border: 0px solid;
+  height: 30px;
+  width: 260px;
+  font-size:30px ;
+}
+/*#button2{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}*/
